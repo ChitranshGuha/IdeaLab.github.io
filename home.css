@@ -1,0 +1,345 @@
+.logosize{
+    width: 6%;
+    height: auto;
+    align-items: center;
+}
+.header{
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-size: large;
+}
+.container{
+    align-items: center;
+}
+.highlighted-box {
+    /* background-color: blanchedalmond; */
+    width: 80%;
+    height: 10%;
+    /* padding: 5%; */
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: large;
+    background-color: aliceblue;
+    margin-left: 2%;
+    border: #000;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.threed-text {
+    font-size: 3em;
+    color: lightblue;
+    /* text-transform: uppercase; */
+    text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 5px 5px 0 #000;
+    transform: perspective(400px) rotateX(20deg);
+}
+.small-box {
+    margin-top: 20px;
+    width: 25%;
+    height: 310px;
+    margin: 10px;
+    background-color: rgb(130, 156, 208);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.medium-box {
+    width: 35%;
+    height: 360px;
+    margin: 10px;
+    background-color: rgb(130, 156, 208);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.textbox1{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+.textbox2{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bolder;
+    font-size: larger;
+    color: blue;;
+    text-align: center;
+}
+.textbox3{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bolder;
+    font-size: larger;
+    color:aliceblue;
+    text-align: center;
+}
+.btn-label {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 5px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+/* input[type="checkbox"]:checked + label + .image-container img {
+    display: block;
+} */
+.btn-label:focus{
+    border-color: lightblue;
+}
+.btn-label:hover {
+    background: aliceblue
+}
+.profile-box {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+.profile-image {
+    max-width: 90%;
+    height: auto;
+}
+
+.name {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.dept {
+    font-style: italic;
+}
+.logo1{
+  width: 10%;
+  height: auto;
+}
+.logo11{
+  width: 10%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.div2#cord{
+    display: none;
+}
+
+#image2-checkbox:checked + .div2#cord{
+    display: flex;
+}
+/* .div2#ment{
+    display: none;
+} */
+#image1-checkbox:checked + .div2#ment{
+    display: flex;
+}
+.div2#team{
+    display: none;
+}
+#image3-checkbox:checked + .div2#team{
+    display: flex;
+}
+
+
+
+        /* Style for the horizontal boxes */
+        .horizontal-box {
+            /* padding: 20px; */
+            text-align: center;
+            border: 3px solid black;
+            border-radius: 15%;
+        }
+        .horizontal-box0 {
+            padding: 20px;
+            border-radius: 20%;
+            text-align: center;
+            border: 3px solid black;
+        }
+
+        /* Style for the right column (big box) */
+        .right-column {
+            padding: 20px;
+            width: 55%;
+            text-align: center;
+            border-top:  solid rgb(130, 156, 208);
+            border-left:  solid rgb(130, 156, 208);
+            border-right: solid whitesmoke ;
+            border-radius: 10%;
+            border-bottom: solid whitesmoke ;
+            height: 300px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr; /* Adjust the column widths as needed */
+            /* Adjust the gap between columns */
+        }
+        
+
+        /* Style for the left column */
+        .left-column {
+            /* background-color: #e0e0e0; */
+            width: 75%;
+            height: 100px;
+            border: radius 2%; ;
+            padding: 20px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr); /* Three rows in the left column */
+             /* Adjust the gap between boxes */
+        }
+
+
+
+
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
+            gap: 20px; /* Adjust the gap between columns */
+        }
+
+        /* Style for the left column */
+        .left-column1 {
+            background-color: #e0e0e0;
+            padding: 20px;
+            display: grid;
+            justify-content: left;
+            /* grid-template-rows: repeat(3, 1fr); Three rows in the left column */
+            gap: 10px; /* Adjust the gap between boxes */
+        }
+
+        /* Style for the horizontal boxes */
+        .horizontal-box1 {
+            background-color: #3498db;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-left: 3px solid black; /* Add a black left border */
+        }
+
+        /* Style for the right column (big box) */
+        .right-column1 {
+            background:linear-gradient(to bottom,rgb(130, 156, 208), aliceblue);
+            padding: 20px;
+            width: 80%;
+            height: 100%;
+
+        }
+
+          
+          .column0 {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #000;
+            font-size: smaller;
+          }
+
+/* css for slideshow */
+          body {
+            font-family: Arial;
+            margin: 0;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          img {
+            vertical-align: middle;
+          }
+          
+          /* Position the image container (needed to position the left and right arrows) */
+          .container {
+            position: relative;
+          }
+          
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          
+          /* Add a pointer when hovering over the thumbnail images */
+          .cursor {
+            cursor: pointer;
+          }
+          
+          /* Next & previous buttons */
+          .prev,
+          .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover,
+          .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* Container for image text */
+          .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+          }
+          
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Six columns side by side */
+          .column {
+            float: left;
+            width: 16.66%;
+          }
+          
+          /* Add a transparency effect for thumnbail images */
+          .demo {
+            opacity: 0.6;
+          }
+          
+          .active,
+          .demo:hover {
+            opacity: 1;
+          }
+          
